@@ -16,7 +16,7 @@ public class GxchainControl {
 
     /**
       * @Description: 获取版本信息等
-      * 实例：http://localhost:8088/gxchain/about
+      * 实例：http://http://localhost:8088/gxchain/about
       * @Method:
       * @Param:
       * @return:
@@ -61,7 +61,7 @@ public class GxchainControl {
 
     /**
       * @Description: 创建委员会成员
-      * 实例：localhost:8088/gxchain/create_committee_member?owner_account=my-1&url=www.baidu.com&broadcast=true
+      * 实例：http://localhost:8088/gxchain/create_committee_member?owner_account=my-1&url=www.baidu.com&broadcast=true
       * @Method:
       * @Param:
       * @return:
@@ -76,7 +76,7 @@ public class GxchainControl {
 
     /**
       * @Description: 创建见证节点
-      * 实例：localhost:8088/gxchain/create_witness?owner_account=my-1&url=www.baidu.com&fee_asset_symbol=GXC&broadcast=true
+      * 实例：http://localhost:8088/gxchain/create_witness?owner_account=my-1&url=www.baidu.com&fee_asset_symbol=GXC&broadcast=true
       * @Method:
       * @Param:
       * @return:
@@ -92,7 +92,7 @@ public class GxchainControl {
 
     /**
       * @Description: 自定义交易事件
-      * 实例：localhost:8088/gxchain/custom?account=my-1&id=1&data=helloworld&fee_symbol=GXC&broadcast=true
+      * 实例：http://localhost:8088/gxchain/custom?account=my-1&id=1&data=helloworld&fee_symbol=GXC&broadcast=true
       * @Method:
       * @Param:
       * @return:
@@ -109,7 +109,7 @@ public class GxchainControl {
 
     /**
       * @Description: 打印备份私钥
-      * 实例：localhost:8088/gxchain/dump_private_keys
+      * 实例：http://localhost:8088/gxchain/dump_private_keys
       * @Method:
       * @Param:
       * @return:
@@ -125,7 +125,7 @@ public class GxchainControl {
 
     /**
       * @Description: 积存资产费用池
-      * 实例：localhost:8088/gxchain/fund_asset_fee_pool?from=my-1&symbol=GXC&amount=1&broadcast=true
+      * 实例：http://localhost:8088/gxchain/fund_asset_fee_pool?from=my-1&symbol=GXC&amount=1&broadcast=true
       * @Method:
       * @Param:
       * @return:
@@ -143,7 +143,7 @@ public class GxchainControl {
 
     /**
       * @Description: 根据账号获取账户信息
-      * 实例：localhost:8088/gxchain/get_account?accountNameOrId=my-1
+      * 实例：http://localhost:8088/gxchain/get_account?accountNameOrId=my-1
       * @Method:
       * @Param:
       * @return:
@@ -160,7 +160,7 @@ public class GxchainControl {
 
     /**
       * @Description: 获取链上账户总数
-      * 实例：localhost:8088/gxchain/get_account_count
+      * 实例：http://localhost:8088/gxchain/get_account_count
       * @Method:
       * @Param:
       * @return:
@@ -176,7 +176,7 @@ public class GxchainControl {
 
     /**
       * @Description: 获取某账户的历史交易记录
-      * 实例：localhost:8088/gxchain/get_account_history?accountNameOrId=blockcity&limitNum=10
+      * 实例：http://localhost:8088/gxchain/get_account_history?accountNameOrId=blockcity&limitNum=10
       * @Method:
       * @Param:
       * @return:
@@ -211,7 +211,7 @@ public class GxchainControl {
 
     /**
       * @Description: 根据账号或账号id获取账号id
-      * 实例： localhost:8088/gxchain/get_account_id?accountNameOrId=lendchain
+      * 实例： http://localhost:8088/gxchain/get_account_id?accountNameOrId=lendchain
       * @Method:
       * @Param:
       * @return:
@@ -227,7 +227,7 @@ public class GxchainControl {
 
     /**
       * @Description: 根据资产名称或者资产id获取资产信息
-      * 实例：localhost:8088/gxchain/get_asset?asset_name_or_id=GXC
+      * 实例：http://localhost:8088/gxchain/get_asset?asset_name_or_id=GXC
       * @Method:
       * @Param:
       * @return:
@@ -244,7 +244,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取链上发行资产的总数量
-     * 实例：localhost:8088/gxchain/get_asset_count
+     * 实例：http://localhost:8088/gxchain/get_asset_count
      * @Method:
      * @Param:
      * @return:
@@ -260,7 +260,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取指定区块号的区块信息
-     * 实例：localhost:8088/gxchain/get_block?blockNum=1000000
+     * 实例：http://localhost:8088/gxchain/get_block?blockNum=1000000
      * @Method:
      * @Param:
      * @return:
@@ -275,7 +275,7 @@ public class GxchainControl {
 
     /**
      * @Description: 根据区块id获取区块信息
-     * 实例：localhost:8088/gxchain/get_block_by_id?block_id=000f4240745b287a353c55b02a93f9bcc2b1a763
+     * 实例：http://localhost:8088/gxchain/get_block_by_id?block_id=000f4240745b287a353c55b02a93f9bcc2b1a763
      * @Method:
      * @Param:
      * @return:
@@ -291,7 +291,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取佣金比例
-     * 实例：localhost:8088/gxchain/get_commission_percent
+     * 实例：http://localhost:8088/gxchain/get_commission_percent
      * @Method:
      * @Param:
      * @return:
@@ -307,7 +307,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取委员会成员信息
-     * 实例：localhost:8088/gxchain/get_committee_member?owner_account=miner2
+     * 实例：http://localhost:8088/gxchain/get_committee_member?owner_account=miner2
      * @Method:
      * @Param:
      * @return:
@@ -322,7 +322,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取合约中的表名称列表
-     * 实例：localhost:8088/gxchain/get_contract_tables?contract=gxcgame-dice2
+     * 实例：http://localhost:8088/gxchain/get_contract_tables?contract=gxcgame-dice2
      * @Method:
      * @Param:
      * @return:
@@ -337,7 +337,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取全局动态属性
-     * 实例：localhost:8088/gxchain/get_dynamic_global_properties
+     * 实例：http://localhost:8088/gxchain/get_dynamic_global_properties
      * @Method:
      * @Param:
      * @return:
@@ -352,7 +352,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取指定区块号的区块信息
-     * 实例：localhost:8088/gxchain/get_global_properties
+     * 实例：http://localhost:8088/gxchain/get_global_properties
      * @Method:
      * @Param:
      * @return:
@@ -367,7 +367,7 @@ public class GxchainControl {
 
     /**
      * @Description: 根据传入的值获取sha256的hash字串
-     * 实例：localhost:8088/gxchain/get_hash?value=helloworld
+     * 实例：http://localhost:8088/gxchain/get_hash?value=helloworld
      * @Method:
      * @Param:
      * @return:
@@ -382,7 +382,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取不可能交易
-     * 实例：localhost:8088/gxchain/get_irreversible_account_history?accountNameOrId=my-1&operateType=0,1&start=0&limitNum=10
+     * 实例：http://localhost:8088/gxchain/get_irreversible_account_history?accountNameOrId=my-1&operateType=0,1&start=0&limitNum=10
      * @Method:
      * @Param:
      * @return:
@@ -399,7 +399,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获得总商户数量
-     * 实例：localhost:8088/gxchain/get_merchants_total_count
+     * 实例：http://localhost:8088/gxchain/get_merchants_total_count
      * @Method:
      * @Param:
      * @return:
@@ -414,7 +414,7 @@ public class GxchainControl {
 
     /**
      * @Description: 根据对象id查询信息，比如：资产id：1.3.1；合约id：1.2.1102979，账户id：1.2.737551等（因对象结构类型不同，直接返回String，后续根据业务需要返回对应的对象）
-     * 实例：localhost:8088/gxchain/get_object?id=1.3.1
+     * 实例：http://localhost:8088/gxchain/get_object?id=1.3.1
      * @Method:
      * @Param:
      * @return:
@@ -429,7 +429,7 @@ public class GxchainControl {
 
     /**
      * @Description: 根据公钥获取私钥信息（需要先解锁钱包且该公钥对应的私钥已经导入）
-     * 实例：localhost:8088/gxchain/get_private_key?publicKey=GXC6LzaCvhyuy2ax4S7D22zZenQEMjzRpdE8esg7FiMPR7xj8b8VC
+     * 实例：http://localhost:8088/gxchain/get_private_key?publicKey=GXC6LzaCvhyuy2ax4S7D22zZenQEMjzRpdE8esg7FiMPR7xj8b8VC
      * @Method:
      * @Param:
      * @return:
@@ -445,7 +445,7 @@ public class GxchainControl {
 
     /**
      * @Description: 例如：get_prototype_operation transfer_operation
-     * 实例：localhost:8088/gxchain/get_prototype_operation?operation_type=transfer_operation
+     * 实例：http://localhost:8088/gxchain/get_prototype_operation?operation_type=transfer_operation
      * @Method:
      * @Param:
      * @return:
@@ -460,7 +460,7 @@ public class GxchainControl {
 
     /**
      * @Description: 根据wif_key获取对应的pub_key
-     * 实例：localhost:8088/gxchain/get_pub_key_from_wif_key?wif_key=XXXXXXX
+     * 实例：http://localhost:8088/gxchain/get_pub_key_from_wif_key?wif_key=XXXXXXX
      * @Method:
      * @Param:
      * @return:
@@ -476,7 +476,7 @@ public class GxchainControl {
 
     /**
      * @Description:
-     * 实例：localhost:8088/gxchain/get_relative_account_history?accountNameOrId=my-1&start=0&limitNum=10&stop=0
+     * 实例：http://localhost:8088/gxchain/get_relative_account_history?accountNameOrId=my-1&start=0&limitNum=10&stop=0
      * @Method:
      * @Param:
      * @return:
@@ -494,7 +494,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取合约表中数据
-     * 实例：localhost:8088/gxchain/get_table_rows?contract=gxcgame-dice17&table=dicejoin&start=0&limitNum=10
+     * 实例：http://localhost:8088/gxchain/get_table_rows?contract=gxcgame-dice17&table=dicejoin&start=0&limitNum=10
      * @Method:
      * @Param:
      * @return:
@@ -525,7 +525,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取某账户的归属余额信息
-     * 实例：localhost:8088/gxchain/get_vesting_balances?account_name=my-1
+     * 实例：http://localhost:8088/gxchain/get_vesting_balances?account_name=my-1
      * @Method:
      * @Param:
      * @return:
@@ -540,7 +540,7 @@ public class GxchainControl {
 
     /**
      * @Description: 根据见证节点名称获取见证节点相关信息
-     * 实例：localhost:8088/gxchain/get_witness?owner_account=init2
+     * 实例：http://localhost:8088/gxchain/get_witness?owner_account=init2
      * @Method:
      * @Param:
      * @return:
@@ -555,7 +555,7 @@ public class GxchainControl {
 
     /**
       * @Description: 根据获取指定命令的业务描述
-      * 实例：http://localhost:8088/gxchain/gethelp?command=transfer
+      * 实例：http://http://localhost:8088/gxchain/gethelp?command=transfer
       * @Method:
       * @Param:
       * @return:
@@ -571,7 +571,7 @@ public class GxchainControl {
 
     /**
       * @Description: 显示command line interface 所有的操作
-      * 实例：http://localhost:8088/gxchain/help
+      * 实例：http://http://localhost:8088/gxchain/help
       * @Method:
       * @Param:
       * @return:
@@ -601,7 +601,7 @@ public class GxchainControl {
 
     /**
       * @Description: 导入key
-      * 实例：localhost:8088/gxchain/import_key?accountNameOrId=my-1&wifPrivateKey=XXXXX&broadcast=true
+      * 实例：http://localhost:8088/gxchain/import_key?accountNameOrId=my-1&wifPrivateKey=XXXXX&broadcast=true
       * @Method:
       * @Param:
       * @return:
@@ -616,7 +616,7 @@ public class GxchainControl {
 
     /**
       * @Description: 获取当前节点相关信息
-      * 实例：localhost:8088/gxchain/info
+      * 实例：http://localhost:8088/gxchain/info
       * @Method:
       * @Param:
       * @return:
@@ -631,7 +631,7 @@ public class GxchainControl {
 
     /**
      * @Description: 根据输入的账户名称，判断该账户是否已经注册
-     * 实例：localhost:8088/gxchain/is_account_registered?name=my-1
+     * 实例：http://localhost:8088/gxchain/is_account_registered?name=my-1
      * @Method:
      * @Param:
      * @return:
@@ -646,7 +646,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取当前客户端的解锁状态
-     * 实例：localhost:8088/gxchain/is_locked
+     * 实例：http://localhost:8088/gxchain/is_locked
      * @Method:
      * @Param:
      * @return:
@@ -661,7 +661,7 @@ public class GxchainControl {
 
     /**
      * @Description: 判断当前客户端是否为新创客户端
-     * 实例：localhost:8088/gxchain/is_new
+     * 实例：http://localhost:8088/gxchain/is_new
      * @Method:
      * @Param:
      * @return:
@@ -692,7 +692,7 @@ public class GxchainControl {
 
     /**
      * @Description: 判断公钥是否已注册
-     * 实例：localhost:8088/gxchain/is_public_key_registered?public_key=GXC6LzaCvhyuy2ax4S7D22zZenQEMjzRpdE8esg7FiMPR7xj8b8VC
+     * 实例：http://localhost:8088/gxchain/is_public_key_registered?public_key=GXC6LzaCvhyuy2ax4S7D22zZenQEMjzRpdE8esg7FiMPR7xj8b8VC
      * @Method:
      * @Param:
      * @return:
@@ -707,7 +707,7 @@ public class GxchainControl {
 
     /**
      * @Description: 根据账号查看资产余额信息
-     * 实例：localhost:8088/gxchain/list_account_balances?accountNameOrId=my-1
+     * 实例：http://localhost:8088/gxchain/list_account_balances?accountNameOrId=my-1
      * @Method:
      * @Param:
      * @return:
@@ -722,7 +722,7 @@ public class GxchainControl {
 
     /**
      * @Description: 查看账户被锁定的余额
-     * 实例：localhost:8088/gxchain/list_account_lock_balances?account_id_or_name=my-1
+     * 实例：http://localhost:8088/gxchain/list_account_lock_balances?account_id_or_name=my-1
      * @Method:
      * @Param:
      * @return:
@@ -737,7 +737,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取链上账户列表
-     * 实例：localhost:8088/gxchain/list_accounts?lowerbound=0&limit=10
+     * 实例：http://localhost:8088/gxchain/list_accounts?lowerbound=0&limit=10
      * @Method:
      * @Param:
      * @return:
@@ -752,7 +752,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取资产列表
-     * 实例：localhost:8088/gxchain/list_assets?lowerbound=0&limit=10
+     * 实例：http://localhost:8088/gxchain/list_assets?lowerbound=0&limit=10
      * @Method:
      * @Param:
      * @return:
@@ -767,7 +767,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取委员会成员列表
-     * 实例：localhost:8088/gxchain/list_committee_members?lowerbound=0&limit=10
+     * 实例：http://localhost:8088/gxchain/list_committee_members?lowerbound=0&limit=10
      * @Method:
      * @Param:
      * @return:
@@ -782,7 +782,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取当前节点导入的账户信息
-     * 实例：localhost:8088/gxchain/list_my_accounts
+     * 实例：http://localhost:8088/gxchain/list_my_accounts
      * @Method:
      * @Param:
      * @return:
@@ -797,7 +797,7 @@ public class GxchainControl {
 
     /**
      * @Description: 获取见证节点列表
-     * 实例：localhost:8088/gxchain/list_witnesses?lowerbound=0&limit=10
+     * 实例：http://localhost:8088/gxchain/list_witnesses?lowerbound=0&limit=10
      * @Method:
      * @Param:
      * @return:
@@ -812,7 +812,7 @@ public class GxchainControl {
 
     /**
      * @Description: 加载钱包文件（如果walletfilename不存在，则返回false；先执行如果save_wallet_file）
-     * 实例：localhost:8088/gxchain/load_wallet_file?wallet_filename=wallet1.txt
+     * 实例：http://localhost:8088/gxchain/load_wallet_file?wallet_filename=wallet1.txt
      * @Method:
      * @Param:
      * @return:
@@ -827,7 +827,7 @@ public class GxchainControl {
 
     /**
      * @Description: 锁定钱包(如果钱包处理锁定状态，则报异常)
-     * 实例：localhost:8088/gxchain/lock
+     * 实例：http://localhost:8088/gxchain/lock
      * @Method:
      * @Param:
      * @return:
@@ -842,7 +842,7 @@ public class GxchainControl {
 
     /**
      * @Description: 标准化数据（存在的小写字母转大写）
-     * 实例：localhost:8088/gxchain/normalize_brain_key?s=helloworld123
+     * 实例：http://localhost:8088/gxchain/normalize_brain_key?s=helloworld123
      * @Method:
      * @Param:
      * @return:
@@ -873,7 +873,7 @@ public class GxchainControl {
 
     /**
      * @Description:  duqumemo信息
-     * 实例：localhost:8088/gxchain/read_memo
+     * 实例：http://localhost:8088/gxchain/read_memo
      * @Method:
      * @Param: 可测试如下参数对象
      * {
@@ -894,7 +894,7 @@ public class GxchainControl {
 
     /**
      * @Description: 保存钱包文件
-     * 实例：localhost:8088/gxchain/save_wallet_file?filename=wallet1.txt
+     * 实例：http://localhost:8088/gxchain/save_wallet_file?filename=wallet1.txt
      * @Method:
      * @Param:
      * @return:
@@ -924,7 +924,7 @@ public class GxchainControl {
 
     /**
      * @Description: 序列号交易
-     * 实例：localhost:8088/gxchain/serialize_transaction (参数gxcTransaction请在postman中自行构造)
+     * 实例：http://localhost:8088/gxchain/serialize_transaction (参数gxcTransaction请在postman中自行构造)
      * @Method:
      * @Param:
      * @return:
@@ -939,7 +939,7 @@ public class GxchainControl {
 
     /**
      * @Description: 设置客户端密码
-     * 实例：localhost:8088/gxchain/set_password?newPassword=hello
+     * 实例：http://localhost:8088/gxchain/set_password?newPassword=hello
      * @Method:
      * @Param:
      * @return:
@@ -954,7 +954,7 @@ public class GxchainControl {
 
     /**
      * @Description: 设置投票代理（如果已设置了投票代理，再次执行时会报错）
-     * 实例：localhost:8088/gxchain/set_voting_proxy?account_to_modify=my-2&voting_account=my-1&broadcast=true
+     * 实例：http://localhost:8088/gxchain/set_voting_proxy?account_to_modify=my-2&voting_account=my-1&broadcast=true
      * @Method:
      * @Param:
      * @return:
@@ -969,7 +969,7 @@ public class GxchainControl {
 
     /**
      * @Description: 对交易memo进行签名
-     * 实例：localhost:8088/gxchain/sign_memo?from=my-1&to=my-2&memo=helloworld
+     * 实例：http://localhost:8088/gxchain/sign_memo?from=my-1&to=my-2&memo=helloworld
      * @Method:
      * @Param:
      * @return:
@@ -984,7 +984,7 @@ public class GxchainControl {
 
     /**
      * @Description: 字符串签名
-     * 实例：localhost:8088/gxchain/sign_string?wif_key=XXXXXXX&raw_string=23832232
+     * 实例：http://localhost:8088/gxchain/sign_string?wif_key=XXXXXXX&raw_string=23832232
      * @Method:
      * @Param:
      * @return:
@@ -999,7 +999,7 @@ public class GxchainControl {
 
     /**
      * @Description: 交易签名
-     * 实例：localhost:8088/gxchain/sign_transaction?broadcast=false (tx json体中，通过postman模拟)
+     * 实例：http://localhost:8088/gxchain/sign_transaction?broadcast=false (tx json体中，通过postman模拟)
      * @Method:
      * @Param:
      * @return:
@@ -1014,7 +1014,7 @@ public class GxchainControl {
 
     /**
      * @Description: 脑钱包key映射
-     * 实例：localhost:8088/gxchain/suggest_brain_key
+     * 实例：http://localhost:8088/gxchain/suggest_brain_key
      * @Method:
      * @Param:
      * @return:
@@ -1029,7 +1029,7 @@ public class GxchainControl {
 
     /**
      * @Description: 发起转账
-     * 实例：localhost:8088/gxchain/transfer?from=my-1&to=my-2&amount=1&symbol=GXC&memo=helloworld&broadcast=true
+     * 实例：http://localhost:8088/gxchain/transfer?from=my-1&to=my-2&amount=1&symbol=GXC&memo=helloworld&broadcast=true
      * @Method:
      * @Param:
      * @return:
@@ -1045,7 +1045,7 @@ public class GxchainControl {
 
     /**
      * @Description: 转账（该接口最终会调用broadcast为true的transfer接口）
-     * @Method: localhost:8088/gxchain/transfer2?from=my-1&to=my-2&amount=1.1&symbol=GXC&memo=helloworld
+     * @Method: http://localhost:8088/gxchain/transfer2?from=my-1&to=my-2&amount=1.1&symbol=GXC&memo=helloworld
      * @Param:
      * @return:
      * @throws:
@@ -1060,7 +1060,7 @@ public class GxchainControl {
 
     /**
      * @Description: 指定费用类型的转账
-     * 实例：localhost:8088/gxchain/transfer3?from=my-1&to=my-2&amount=1.3&symbol=GXC&memo=helloworld&fee_symbol=GXC&broadcast=true
+     * 实例：http://localhost:8088/gxchain/transfer3?from=my-1&to=my-2&amount=1.3&symbol=GXC&memo=helloworld&fee_symbol=GXC&broadcast=true
      * @Method:
      * @Param:
      * @return:
@@ -1077,7 +1077,7 @@ public class GxchainControl {
 
     /**
      * @Description: 解锁客户端钱包
-     * 实例：localhost:8088/gxchain/unlock?myPassword=XXXX
+     * 实例：http://localhost:8088/gxchain/unlock?myPassword=XXXX
      * @Method:
      * @Param:
      * @return:
@@ -1092,7 +1092,7 @@ public class GxchainControl {
 
     /**
      * @Description: 更新合约
-     * 实例：localhost:8088/gxchain/update_contract?contract=XXXXX&new_owner=XXXX&contract_dir=XXXXX&fee_asset_symbol=GXC&broadcast=true
+     * 实例：http://localhost:8088/gxchain/update_contract?contract=XXXXX&new_owner=XXXX&contract_dir=XXXXX&fee_asset_symbol=GXC&broadcast=true
      * @Method:
      * @Param:
      * @return:
@@ -1109,7 +1109,7 @@ public class GxchainControl {
 
     /**
      * @Description: 更新节点
-     * 实例：localhost:8088/gxchain/update_witness?witness_name=XXX&url=XXXXX&block_signing_key=XXXXX&fee_asset_symbol=GXC&broadcast=true
+     * 实例：http://localhost:8088/gxchain/update_witness?witness_name=XXX&url=XXXXX&block_signing_key=XXXXX&fee_asset_symbol=GXC&broadcast=true
      * @Method:
      * @Param:
      * @return:
@@ -1126,7 +1126,7 @@ public class GxchainControl {
 
     /**
      * @Description: 升级账户
-     * 实例：localhost:8088/gxchain/upgrade_account?name=my-2&asset_symbol=GXC&broadcast=false
+     * 实例：http://localhost:8088/gxchain/upgrade_account?name=my-2&asset_symbol=GXC&broadcast=false
      * @Method:
      * @Param:
      * @return:
@@ -1157,7 +1157,7 @@ public class GxchainControl {
 
     /**
      * @Description: 验证交易的合法性
-     * 实例：localhost:8088/gxchain/verify_transaction_signature?pub_key=GXC6LzaCvhyuy2ax4S7D22zZenQEMjzRpdE8esg7FiMPR7xj8b8VC
+     * 实例：http://localhost:8088/gxchain/verify_transaction_signature?pub_key=GXC6LzaCvhyuy2ax4S7D22zZenQEMjzRpdE8esg7FiMPR7xj8b8VC
      * @Method:
      * @Param: trx （交易体）
      * @Param: pub_key （公钥验证）
@@ -1173,7 +1173,7 @@ public class GxchainControl {
 
     /**
      * @Description: 节点投票
-     * 实例：localhost:8088/gxchain/vote_for_witness?voting_account=my-1&witness=init2&approve=true&broadcast=true
+     * 实例：http://localhost:8088/gxchain/vote_for_witness?voting_account=my-1&witness=init2&approve=true&broadcast=true
      * @Method:
      * @Param:
      * @return:
